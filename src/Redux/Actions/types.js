@@ -1,0 +1,5 @@
+// // Home
+export const UPDATE_HOME_PROPS = "UPDATE_HOME_PROPS";
+export const MERGE_HOME_PROPS = "MERGE_HOME_PROPS";
+export const DELETE_HOME_PROPS = "DELETE_HOME_PROPS";
+export const CLEAR_HOME_STATE = "CLEAR_HOME_STATE";

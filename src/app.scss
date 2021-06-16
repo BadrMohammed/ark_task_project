@@ -1,0 +1,71 @@
+$whiteColor: white;
+$blueColor: #007bff;
+$fontWeight: bold;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container_div {
+  width: 100%;
+  height: 100%;
+}
+
+.home_card_row {
+  align-items: center;
+}
+
+.home_card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  height: 100%;
+  // border: 1px solid $blueColor;
+  cursor: pointer;
+}
+
+.home_card:after {
+  content: "";
+  background: #fff;
+  height: 165px;
+  width: 100%;
+  border-radius: 23px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home_btn {
+  color: white;
+  background-color: $blueColor;
+  border: none;
+  font-weight: $fontWeight;
+}
+
+.home_btn:hover {
+  color: $blueColor;
+  background-color: white;
+  border: 1px solid $blueColor;
+  font-weight: $fontWeight;
+}
+
+.search_btn {
+  color: $blueColor;
+  background-color: white;
+  border: none;
+  font-weight: $fontWeight;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.loader_div {
+  color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
